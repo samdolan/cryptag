@@ -1,0 +1,69 @@
+package: .
+import:
+- package: github.com/davecgh/go-spew
+  version: 5215b55f46b2b919f50a1df0eaa5886afe4e3b3d
+  subpackages:
+  - spew
+- package: github.com/elimisteve/clipboard
+  version: 15989d8865385cd77ba7cc78719c7281bd648285
+- package: github.com/elimisteve/fun
+  version: 7830c77715269920b64483cf3f86c05fc11edbd1
+- package: github.com/elimisteve/help
+  version: be843dc09b87b659e7cfc6fedc0fb7383dc35d1d
+- package: github.com/fatih/color
+  version: 9aae6aaa22315390f03959adca2c4d395b02fcef
+- package: github.com/gorilla/context
+  version: 215affda49addc4c8ef7e2534915df2c8c35c6cd
+- package: github.com/gorilla/mux
+  version: ffb3f683aad4dcbc2bb65177799563252585dd22
+- package: github.com/mattn/go-colorable
+  version: 3dac7b4f76f6e17fb39b768b89e3783d16e237fe
+- package: github.com/mattn/go-isatty
+  version: 56b76bdf51f7708750eac80fa38b952bb9f32639
+- package: github.com/mitchellh/go-homedir
+  version: 981ab348d865cf048eb7d17e78ac7192632d8415
+- package: github.com/mreiferson/go-httpclient
+  version: c121dfe45d66997e43e25a6823fbe7466c8403fe
+- package: github.com/nu7hatch/gouuid
+  version: 179d4d0c4d8d407a32af483c2354df1d2c91e6c3
+- package: github.com/pmezard/go-difflib
+  version: 792786c7400a136282c1664665ae0a8db921c6c2
+  subpackages:
+  - difflib
+- package: github.com/stacktic/dropbox
+  version: b7d75fe25567416e18bf8eac04bd19cbda425214
+- package: github.com/stretchr/testify
+  version: e3a8ff8ce36581f87a15341206f205b1da467059
+  subpackages:
+  - assert
+- package: golang.org/x/crypto
+  version: 2f3083f6163ef51179ad42ed523a18c9a1141467
+  subpackages:
+  - nacl/secretbox
+  - poly1305
+  - salsa20/salsa
+- package: golang.org/x/net
+  version: fb93926129b8ec0056f2f458b1f519654814edf0
+  subpackages:
+  - context
+  - proxy
+- package: golang.org/x/oauth2
+  version: ad0128250e8fba646a92ca9129716e523d63ef9f
+  subpackages:
+  - internal
+- package: golang.org/x/sys
+  version: 076b546753157f758b316e59bcb51e6807c04057
+  subpackages:
+  - unix
+- package: github.com/boltdb/bolt
+- package: github.com/elimisteve/cryptag
+  subpackages:
+  - backend
+  - cli
+  - cli/color
+  - importer
+  - keyutil
+  - mobile/cryptask
+  - rowutil
+  - tor
+  - types

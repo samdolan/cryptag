@@ -1,0 +1,86 @@
+hash: 42c2f2432b33d4b014d93b95605da6d8826d8adff19117a904b0e2db74aa71b7
+updated: 2016-06-20T13:45:59.210714499-07:00
+imports:
+- name: github.com/boltdb/bolt
+  version: 3f7947a25d970e1e5f512276c14d5dcf731ccd5e
+- name: github.com/davecgh/go-spew
+  version: ""
+  subpackages:
+  - spew
+- name: github.com/elimisteve/clipboard
+  version: 15989d8865385cd77ba7cc78719c7281bd648285
+- name: github.com/elimisteve/cryptag
+  version: b6cc2d47c054f13dfa114577387860cd311190e0
+  subpackages:
+  - backend
+  - cli
+  - cli/color
+  - importer
+  - keyutil
+  - mobile/cryptask
+  - rowutil
+  - tor
+  - types
+- name: github.com/elimisteve/fun
+  version: 7830c77715269920b64483cf3f86c05fc11edbd1
+- name: github.com/elimisteve/help
+  version: be843dc09b87b659e7cfc6fedc0fb7383dc35d1d
+- name: github.com/fatih/color
+  version: 9aae6aaa22315390f03959adca2c4d395b02fcef
+- name: github.com/golang/protobuf
+  version: 0c1f6d65b5a189c2250d10e71a5506f06f9fa0a0
+  subpackages:
+  - proto
+- name: github.com/gorilla/context
+  version: 215affda49addc4c8ef7e2534915df2c8c35c6cd
+- name: github.com/gorilla/mux
+  version: ffb3f683aad4dcbc2bb65177799563252585dd22
+- name: github.com/mattn/go-colorable
+  version: 3dac7b4f76f6e17fb39b768b89e3783d16e237fe
+- name: github.com/mattn/go-isatty
+  version: 56b76bdf51f7708750eac80fa38b952bb9f32639
+- name: github.com/mitchellh/go-homedir
+  version: ""
+- name: github.com/mreiferson/go-httpclient
+  version: c121dfe45d66997e43e25a6823fbe7466c8403fe
+- name: github.com/nu7hatch/gouuid
+  version: 179d4d0c4d8d407a32af483c2354df1d2c91e6c3
+- name: github.com/pmezard/go-difflib
+  version: ""
+  subpackages:
+  - difflib
+- name: github.com/stacktic/dropbox
+  version: b7d75fe25567416e18bf8eac04bd19cbda425214
+- name: github.com/stretchr/testify
+  version: ""
+  subpackages:
+  - assert
+- name: golang.org/x/crypto
+  version: ""
+  subpackages:
+  - nacl/secretbox
+  - poly1305
+  - salsa20/salsa
+- name: golang.org/x/net
+  version: fb93926129b8ec0056f2f458b1f519654814edf0
+  subpackages:
+  - context
+  - proxy
+- name: golang.org/x/oauth2
+  version: ad0128250e8fba646a92ca9129716e523d63ef9f
+  subpackages:
+  - internal
+- name: golang.org/x/sys
+  version: 076b546753157f758b316e59bcb51e6807c04057
+  subpackages:
+  - unix
+- name: google.golang.org/appengine
+  version: 7f59a8c76b8594d06044bfe0bcbe475cb2020482
+  subpackages:
+  - urlfetch
+  - internal
+  - internal/urlfetch
+  - internal/base
+  - internal/datastore
+  - internal/remote_api
+devImports: []
